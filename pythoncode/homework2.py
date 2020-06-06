@@ -6,10 +6,10 @@ class Animal:
         self.gender = gender
 
     def sound(self):
-        print(f"{self.name}会叫")
+        print("动物会叫")
 
     def run(self):
-        print(f"{self.name}会跑")
+        print("动物会跑")
 
 
 class Cat(Animal):
